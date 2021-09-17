@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <meta charset="UTF-8">
+ <link rel="stylesheet" href="style.css" type="text/css"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="#"
+  </head>
+
+<body>
+     <h1 id="form-title"> Language school survey form</h1>
+  </div><p id="description">Help our school to improve the quality of our services
+        <form id="survey-form" class=container>
+           <label for="name">Name:</label><br>
+          <input type="text" placeholder="Enter your name" id="name" required><br>
+
+          <label for="email">E-mail:</label><br>
+          <input type="email" placeholder="Enter your e-mail" id="email" required><br>
+
+          <label for="number"> Age:</label><br>
+          <input type="number" placeholder="Enter your age" id="number" min="1" max="99" required><br>     
+
+           <label for="languages">Which language do you learn?</label>
+            <select name = "languages" id="dropdown">
+         
+           <option value = "English"> English</option>
+           <option value = "French">French</option>
+           <option value = "Chinese">Chinese</option>            
+             </select>
+
+        <div id="radio-buttons"> 
+           <label for="gender" >Gender:<label><br>
+           <input type="radio" id="male" name="gender" value="male">
+           <label for="male">Male</label><br>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">Female</label><br>
+           <input type="radio" id="other" name="gender" value="other">
+           <label for="other">Other</label>
+         </div>
+       <div id="check-boxes">
+         <label>What would you like to improve?</label><br>
+         <input type="checkbox" name="issue1" value="structure">
+         <label for="issue1"> Lesson structure</label><br>
+         <input type="checkbox" name="issue2" value="duration">
+         <label for="issue2"> Duration of the lesson</label><br>
+         <input type="checkbox" name="issue3" value="price">
+         <label for="issue3"> Price of the lessons</label>
+       </div>
+
+       <div id="text-area">
+           <label for="story">Have you got anything else to          say?</label>
+           <textarea id="story" name="story" placeholder="Start writing here...">
+           </textarea>
+       </div>
+
+       <input type="submit" value="Submit" id="submit">
+       
+    </form>
+  </body>
+</html>
