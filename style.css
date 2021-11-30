@@ -46,7 +46,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #ffffe6;
+  background-color: #e0e0eb;
   width: 50%;
   border-radius: 10px;
   padding: 1em;
